@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="./assets/cyber-header.svg" alt="Vijwal Mahendrakar — AI Engineer focused on Generative AI and agentic systems" width="100%" />
+  <img src="./assets/cyber-header.gif" alt="Animated cyberpunk banner for Vijwal Mahendrakar — AI Engineer" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vijwal-mahendrakar-1b6a8215a/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Connect with Vijwal on LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Vijwal on LinkedIn" />
   </a>
   <a href="mailto:vijwalmahendrakar@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Contact-20232A?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email Vijwal" />
+    <img src="https://img.shields.io/badge/Gmail-Contact-20232A?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email Vijwal" />
   </a>
   <a href="mailto:mahendrakar.v@northeastern.edu">
-    <img src="https://img.shields.io/badge/Northeastern-Academic_Email-7C3AED?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="Email Vijwal at Northeastern" />
+    <img src="https://img.shields.io/badge/Northeastern-Academic_Email-7C3AED?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email Vijwal at Northeastern" />
   </a>
 </p>
 
@@ -20,15 +20,23 @@
   <code>Open to Spring 2027 co-ops</code>
 </p>
 
-## About Me
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2600&pause=800&color=22D3EE&center=true&vCenter=true&width=900&height=35&lines=RAG+systems+that+retrieve%2C+reason%2C+and+verify;Agent+workflows+with+bounded+self-correction;LLM+evaluation+%7C+optimization+%7C+observability" alt="Animated summary of Vijwal's AI engineering focus" />
+</p>
+
+<p align="center">
+  <img src="./assets/section-01-about-me.svg" alt="01 — About Me" width="100%" />
+</p>
 
 I am an M.S. Artificial Intelligence student at Northeastern University focused on **Generative AI, agentic systems, RAG, and LLM evaluation**. I enjoy transforming powerful but unpredictable models into reliable, production-ready systems by designing robust retrieval pipelines, agent workflows, evaluation loops, and safety gates.
 
 My goal is to build AI products that are **accurate, observable, scalable, and genuinely useful** in real-world environments. I am exploring Spring 2027 co-ops beginning in January 2027, AI/ML internships, and full-time AI engineering roles.
 
-## Experience
+<p align="center">
+  <img src="./assets/section-02-experience.svg" alt="02 — Experience" width="100%" />
+</p>
 
-### AI Engineer Intern — Kideon *(U.S.-based)*
+### `ROLE_01` AI Engineer Intern — Kideon *(U.S.-based)*
 
 `Remote` &nbsp; `Dec 2024 – Aug 2025`
 
@@ -37,7 +45,7 @@ My goal is to build AI products that are **accurate, observable, scalable, and g
 - Added source-level traceability and an LLM-as-judge verification layer that routed unsafe, contradictory, or low-confidence recommendations to human review.
 - Built containerized FastAPI microservices with Redis-backed retrieval caching; the team subsequently deployed the platform on AWS.
 
-### Video Analytics Intern — Jio Platforms
+### `ROLE_02` Video Analytics Intern — Jio Platforms
 
 `Hyderabad, India` &nbsp; `Hybrid` &nbsp; `Nov 2023 – May 2024`
 
@@ -46,9 +54,11 @@ My goal is to build AI products that are **accurate, observable, scalable, and g
 - Built Python-based image-scraping and annotation tools that added **20,000+ curated samples**, improving robustness to motion blur, occlusion, and other edge cases.
 - Fine-tuned Stable Diffusion models to generate synthetic training data for an internal baby-monitor prototype that evolved from smile detection to cry and movement detection for a planned customer product.
 
-## Featured Projects
+<p align="center">
+  <img src="./assets/section-03-featured-projects.svg" alt="03 — Featured Projects" width="100%" />
+</p>
 
-### Production-Grade Agentic RAG for Pharmaceutical Safety — *Independent*
+### `SYSTEM_01` Production-Grade Agentic RAG for Pharmaceutical Safety — *Independent*
 
 Built an end-to-end RAG system over approximately **15,000 FDA drug labels**, using current-version PDFs and historical DailyMed SPL XML to preserve genuine document revisions. Implemented layout-aware parsing with Docling and pdfplumber, section extraction with lxml/XPath and LOINC codes, hybrid Qdrant + BM25 retrieval with RRF, cross-encoder reranking, LangGraph control flow, model routing, guardrails, caching, observability, and evaluation-gated releases.
 
@@ -56,7 +66,7 @@ Built an end-to-end RAG system over approximately **15,000 FDA drug labels**, us
 
 <!-- TODO: Add the pharmaceutical RAG repository link and final evaluation metrics. -->
 
-### Agentic Game Recommendation System — *Independent*
+### `SYSTEM_02` Agentic Game Recommendation System — *Independent*
 
 Built a personalized recommendation platform combining ChromaDB dense search, BM25, RRF, selective HyDE, and LLM-assisted tag enrichment. Created self-distilled training pairs with hard negatives, fine-tuned a bi-encoder and QLoRA reranker, and orchestrated query parsing, retrieval, reranking, and explanation through LangGraph. Added Steam-library personalization, two-level Redis caching, ONNX-optimized inference, FastAPI services, and Dockerized local deployment.
 
@@ -64,37 +74,41 @@ Built a personalized recommendation platform combining ChromaDB dense search, BM
 
 <!-- TODO: Add the game recommender repository link and final ranking/latency metrics. -->
 
-### [VOID AI — Analyst Coverage Gap Intelligence](https://github.com/aatmaj28/Void-AI) — *Team of 2*
+### `SYSTEM_03` [VOID AI — Analyst Coverage Gap Intelligence](https://github.com/aatmaj28/Void-AI) — *Team of 2*
 
 Co-developed an AI investment-intelligence platform that scans **1,700+ U.S. equities** for high market activity and limited analyst coverage. The platform combines SEC-filings RAG, a five-agent CrewAI debate workflow, daily opportunity scoring, and signal validation. Owned major product components including the backtesting engine, stock-comparison workflow, portfolio tracking, authentication integration, historical-score APIs, database migrations, and real-market-data fixes.
 
 `Next.js` `TypeScript` `FastAPI` `CrewAI` `Haystack` `Supabase` `pgvector` `XGBoost`
 
-### [Equity Performance Screener](https://github.com/Vijwalmahen/equity-screener) — *Independent*
+### `SYSTEM_04` [Equity Performance Screener](https://github.com/Vijwalmahen/equity-screener) — *Independent*
 
 Built an end-to-end ML system that predicts next-quarter S&P 500 outperformance from time-ordered fundamental and price data. Benchmarked six classifiers against four financial baselines; XGBoost achieved a **0.577 held-out ROC-AUC**, while expanding-window validation averaged **0.566 AUC across 16 quarters**. Added SHAP explanations, leakage tests, conformal prediction, transaction-cost analysis, a FastAPI backend, and a React dashboard.
 
 `Python` `XGBoost` `scikit-learn` `SHAP` `FastAPI` `React`
 
-### Additional Project
+### `TEAM_BUILD` Additional Project
 
 **[ResilienceAI](https://github.com/Chandi713/Hackathon---End-Of-The-World)** — Contributed country-selection and full-stack API integration to a hackathon-built, LangGraph-based supply-chain risk platform covering 266 countries and 25 years of multi-domain data. The system coordinates eight specialist agents and supports interactive risk exploration and cascade simulation.
 
 `LangGraph` `Python` `FastAPI` `Next.js` `TypeScript` `Recharts`
 
-## Education
+<p align="center">
+  <img src="./assets/section-04-education.svg" alt="04 — Education" width="100%" />
+</p>
 
-### Northeastern University — Boston, MA
+### `EDU_01` Northeastern University — Boston, MA
 
 **Master of Science in Artificial Intelligence** &nbsp;|&nbsp; `Sep 2025 – Expected 2027`<br>
 GPA: **3.84/4.00**
 
-### Vellore Institute of Technology — Vellore, India
+### `EDU_02` Vellore Institute of Technology — Vellore, India
 
 **B.Tech in Computer Science and Engineering, specializing in Internet of Things** &nbsp;|&nbsp; `2021 – 2025`<br>
 CGPA: **8.78/10** · Major project focused on LLM quantization and model-size reduction · VIT Gamers Club
 
-## Technical Skills
+<p align="center">
+  <img src="./assets/section-05-technical-skills.svg" alt="05 — Technical Skills" width="100%" />
+</p>
 
 | Area | Technologies |
 | --- | --- |
@@ -105,13 +119,17 @@ CGPA: **8.78/10** · Major project focused on LLM quantization and model-size re
 | **Data & Retrieval** | PostgreSQL, Supabase, pgvector, Qdrant, Redis, Pandas, NumPy |
 | **Backend & Cloud** | FastAPI, REST API design, Docker, AWS, Git, Linux |
 
-## Currently Exploring
+<p align="center">
+  <img src="./assets/section-06-currently-exploring.svg" alt="06 — Currently Exploring" width="100%" />
+</p>
 
 - Reliable multi-agent systems with routing, memory, guardrails, and human-in-the-loop workflows
 - RAG evaluation and optimization across retrieval quality, grounding, latency, and cost
 - Efficient LLM deployment through quantization, pruning, and inference optimization
 
-## GitHub Activity
+<p align="center">
+  <img src="./assets/section-07-github-activity.svg" alt="07 — GitHub Activity" width="100%" />
+</p>
 
 <p align="center">
   <img height="155" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Vijwalmahen&theme=github_dark" alt="Vijwal's GitHub statistics" />
@@ -123,5 +141,5 @@ CGPA: **8.78/10** · Major project focused on LLM quantization and model-size re
 </p>
 
 <p align="center">
-  <sub>Building reliable, production-ready AI agents and retrieval systems.</sub>
+  <sub><code>SYS.STATUS: BUILDING RELIABLE, PRODUCTION-READY AI</code></sub>
 </p>

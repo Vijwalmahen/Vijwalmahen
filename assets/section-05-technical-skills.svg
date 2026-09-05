@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="58" viewBox="0 0 1200 58" role="img" aria-label="TECHNICAL SKILLS">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.7" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#171229"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="56" rx="7" fill="url(#bg)" stroke="#263244"/>
+  <rect x="1" y="1" width="7" height="56" rx="3" fill="#22d3ee"/>
+  <text x="28" y="36" font-family="monospace" font-size="18" font-weight="700" letter-spacing="2" fill="#22d3ee">05 //</text>
+  <text x="96" y="36" font-family="monospace" font-size="18" font-weight="700" letter-spacing="2" fill="#e2e8f0">TECHNICAL SKILLS</text>
+  <text x="475" y="35" font-family="monospace" font-size="12" letter-spacing="1.5" fill="#64748b">CAPABILITY MATRIX</text>
+  <line x1="700" y1="29" x2="1128" y2="29" stroke="url(#line)" stroke-opacity="0.55"/>
+  <circle cx="1146" cy="29" r="4" fill="#a78bfa"/>
+  <text x="1166" y="33" font-family="monospace" font-size="10" text-anchor="middle" fill="#64748b">OK</text>
+</svg>
