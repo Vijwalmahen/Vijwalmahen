@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Vijwal Mahendrakar — AI Engineer</title>
+  <desc id="desc">Minimal cyberpunk profile banner focused on generative AI, agentic systems, and reliable production AI.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b14" />
+      <stop offset="0.55" stop-color="#0b1220" />
+      <stop offset="1" stop-color="#11102a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" />
+      <stop offset="0.52" stop-color="#67e8f9" />
+      <stop offset="1" stop-color="#a78bfa" />
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.07" />
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+      .status { animation: pulse 2.4s ease-in-out infinite; transform-origin: 1088px 43px; }
+      .cursor { animation: blink 1.1s steps(2, end) infinite; }
+      @keyframes pulse { 0%, 100% { opacity: .45; transform: scale(.82); } 50% { opacity: 1; transform: scale(1.12); } }
+      @keyframes blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: .15; } }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="258" rx="14" fill="url(#background)" stroke="#263244" stroke-width="2" />
+  <rect x="1" y="1" width="1198" height="258" rx="14" fill="url(#grid)" />
+
+  <path d="M38 78V35H81" fill="none" stroke="#22d3ee" stroke-width="2" stroke-opacity="0.75" />
+  <path d="M1162 182V225H1119" fill="none" stroke="#a78bfa" stroke-width="2" stroke-opacity="0.7" />
+  <path d="M748 42H890L910 62H995" fill="none" stroke="#22d3ee" stroke-width="1" stroke-opacity="0.22" />
+  <circle cx="748" cy="42" r="3" fill="#22d3ee" />
+  <circle cx="995" cy="62" r="3" fill="#a78bfa" />
+
+  <g transform="translate(1026 88)" opacity="0.72">
+    <path d="M0 18H28L40 6H79" fill="none" stroke="#22d3ee" stroke-width="1.5" />
+    <path d="M0 42H34L46 54H96" fill="none" stroke="#a78bfa" stroke-width="1.5" />
+    <path d="M13 72H52L64 60H101" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <circle cx="0" cy="18" r="3" fill="#22d3ee" />
+    <circle cx="0" cy="42" r="3" fill="#a78bfa" />
+    <circle cx="13" cy="72" r="3" fill="#38bdf8" />
+  </g>
+
+  <text x="60" y="49" class="mono" font-size="15" letter-spacing="2.8" fill="#64748b">SYSTEM PROFILE / AI ENGINEERING</text>
+  <circle class="status" cx="1088" cy="43" r="6" fill="#34d399" filter="url(#glow)" />
+  <text x="1105" y="48" class="mono" font-size="12" fill="#94a3b8">OPEN</text>
+
+  <text x="60" y="121" class="mono" font-size="52" font-weight="700" letter-spacing="5" fill="url(#accent)" filter="url(#glow)">VIJWAL MAHENDRAKAR</text>
+  <text x="61" y="160" class="mono" font-size="22" letter-spacing="2" fill="#22d3ee">AI ENGINEER</text>
+  <text x="255" y="160" class="mono" font-size="18" letter-spacing="1.5" fill="#94a3b8">// GENERATIVE AI + AGENTIC SYSTEMS</text>
+
+  <text x="61" y="198" class="mono" font-size="16" letter-spacing="0.8" fill="#cbd5e1">Building reliable, production-ready AI agents and retrieval systems.</text>
+  <rect class="cursor" x="814" y="184" width="9" height="17" rx="1" fill="#a78bfa" />
+
+  <line x1="60" y1="224" x2="1140" y2="224" stroke="url(#accent)" stroke-width="1.5" stroke-opacity="0.48" />
+  <text x="60" y="246" class="mono" font-size="12" letter-spacing="1.6" fill="#64748b">RAG &#8226; AGENTS &#8226; EVALUATION &#8226; MODEL OPTIMIZATION</text>
+
+  <rect x="0" y="-28" width="1200" height="26" fill="url(#scan)">
+    <animate attributeName="y" from="-28" to="270" dur="5.5s" repeatCount="indefinite" />
+  </rect>
+</svg>
