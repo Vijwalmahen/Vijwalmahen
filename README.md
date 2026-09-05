@@ -242,9 +242,11 @@ Vellore, India · 2021 – 2025
 ## Currently Exploring
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MULTI--AGENT-Routing_·_Memory_·_Guardrails-19302c?style=for-the-badge&labelColor=2a9d8f" alt="Multi-agent reliability" />
-  <img src="https://img.shields.io/badge/RAG-Evaluation_·_Grounding_·_Cost-29233d?style=for-the-badge&labelColor=7c6fa8" alt="RAG evaluation" />
-  <img src="https://img.shields.io/badge/LLM-Quantization_·_Optimized_Inference-382713?style=for-the-badge&labelColor=b98545" alt="Efficient LLM deployment" />
+  <img src="https://img.shields.io/badge/TEST--TIME_REASONING-Verifier_Guided_Search-19302c?style=for-the-badge&labelColor=2a9d8f" alt="Test-time reasoning and verifier-guided search" />
+  <img src="https://img.shields.io/badge/SELF--IMPROVING_RAG-Retrieval_Credit_Assignment-29233d?style=for-the-badge&labelColor=7c6fa8" alt="Self-improving RAG and retrieval credit assignment" />
+  <img src="https://img.shields.io/badge/STATEFUL_AGENT_RUNTIMES-Durable_Execution_and_Recovery-1c3040?style=for-the-badge&labelColor=4f86a6" alt="Stateful agent runtimes and failure recovery" />
+  <img src="https://img.shields.io/badge/PRODUCTION_EVALUATION-Uncertainty_Drift_and_Cost-382713?style=for-the-badge&labelColor=b98545" alt="Production LLM evaluation" />
+  <img src="https://img.shields.io/badge/EFFICIENT_LLM_SERVING-Speculative_Decoding_and_KV_Cache-1d3325?style=for-the-badge&labelColor=4f8f6a" alt="Efficient LLM serving" />
 </p>
 
 ---
