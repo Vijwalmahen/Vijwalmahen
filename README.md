@@ -221,23 +221,8 @@ Vellore, India · 2021 – 2025
 ## Technical Skills
 
 <p align="center">
-  <img src="./assets/skills-board-v6.svg" width="100%" alt="AI engineering skills capability board" />
+  <img src="./assets/skills-board-complete-v7.svg" width="100%" alt="Complete AI engineering technical skills board" />
 </p>
-
-<details>
-<summary><img src="https://img.shields.io/badge/EXPAND-FULL_SKILL_INVENTORY-4f8f6a?style=for-the-badge&labelColor=0d1117" alt="Expand full skill inventory" /></summary>
-<br>
-
-| Area | Technologies |
-| --- | --- |
-| **Languages** | Python, C++, SQL, JavaScript, Java, HTML/CSS |
-| **Generative AI & Agents** | LLMs, agentic systems, RAG, LangChain, LangGraph, Hugging Face, routing, memory, tools, guardrails, LLM evaluation |
-| **Machine Learning** | PyTorch, TensorFlow, Keras, scikit-learn, XGBoost, NLP, reinforcement learning, ranking and recommendation |
-| **Computer Vision** | OpenCV, YOLOv7, PaddleOCR, Stable Diffusion, ONNX Runtime, video analytics and OCR |
-| **Data & Retrieval** | PostgreSQL, Supabase, pgvector, Qdrant, ChromaDB, Redis, Pandas, NumPy, BM25, dense retrieval, RRF, reranking |
-| **Backend & Cloud** | FastAPI, REST API design, Docker, AWS, microservices, observability, Git, Linux, VS Code, Jupyter |
-
-</details>
 
 ## Currently Exploring
 

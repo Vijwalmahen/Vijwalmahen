@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-label="Complete technical skills for Vijwal Mahendrakar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1015"/><stop offset="1" stop-color="#121720"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="498" rx="14" fill="url(#bg)" stroke="#2a323d"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="38" y="42" fill="#7f8995" font-size="12" letter-spacing="2">COMPLETE TECHNICAL STACK / ONE VIEW</text>
+
+    <g transform="translate(38 65)">
+      <rect width="548" height="120" rx="9" fill="#10161d" stroke="#2a9d8f"/>
+      <text x="20" y="27" fill="#58b7ab" font-size="12" letter-spacing="1.2">GENERATIVE AI + AGENTS</text>
+      <text x="20" y="56" fill="#e1e5e8" font-size="13">LLMs · Generative AI · RAG · LangChain · LangGraph</text>
+      <text x="20" y="81" fill="#c2c8cd" font-size="13">Hugging Face · agentic systems · routing · memory · tools</text>
+      <text x="20" y="104" fill="#929ca7" font-size="12">guardrails · LLM evaluation · human review</text>
+    </g>
+
+    <g transform="translate(614 65)">
+      <rect width="548" height="120" rx="9" fill="#10161d" stroke="#7c6fa8"/>
+      <text x="20" y="27" fill="#a095c3" font-size="12" letter-spacing="1.2">MACHINE LEARNING + NLP</text>
+      <text x="20" y="56" fill="#e1e5e8" font-size="13">PyTorch · TensorFlow · Keras · scikit-learn · XGBoost</text>
+      <text x="20" y="81" fill="#c2c8cd" font-size="13">Pandas · NumPy · NLP · reinforcement learning</text>
+      <text x="20" y="104" fill="#929ca7" font-size="12">classification · ranking · recommendation · optimization</text>
+    </g>
+
+    <g transform="translate(38 205)">
+      <rect width="548" height="120" rx="9" fill="#10161d" stroke="#4f86a6"/>
+      <text x="20" y="27" fill="#73a9c8" font-size="12" letter-spacing="1.2">DATA + RETRIEVAL</text>
+      <text x="20" y="56" fill="#e1e5e8" font-size="13">PostgreSQL · Supabase · pgvector · Qdrant · ChromaDB</text>
+      <text x="20" y="81" fill="#c2c8cd" font-size="13">Redis · BM25 · dense retrieval · hybrid search · RRF</text>
+      <text x="20" y="104" fill="#929ca7" font-size="12">reranking · metadata filtering · caching</text>
+    </g>
+
+    <g transform="translate(614 205)">
+      <rect width="548" height="120" rx="9" fill="#10161d" stroke="#4f8f6a"/>
+      <text x="20" y="27" fill="#74b58b" font-size="12" letter-spacing="1.2">COMPUTER VISION</text>
+      <text x="20" y="56" fill="#e1e5e8" font-size="13">OpenCV · YOLOv7 · PaddleOCR · Stable Diffusion</text>
+      <text x="20" y="81" fill="#c2c8cd" font-size="13">ONNX Runtime · real-time video analytics · OCR</text>
+      <text x="20" y="104" fill="#929ca7" font-size="12">synthetic data generation · inference optimization</text>
+    </g>
+
+    <g transform="translate(38 345)">
+      <rect width="548" height="120" rx="9" fill="#10161d" stroke="#b98545"/>
+      <text x="20" y="27" fill="#d2a568" font-size="12" letter-spacing="1.2">BACKEND + CLOUD</text>
+      <text x="20" y="56" fill="#e1e5e8" font-size="13">FastAPI · REST API design · Docker · AWS · microservices</text>
+      <text x="20" y="81" fill="#c2c8cd" font-size="13">observability · deployment pipelines · Linux · Git</text>
+      <text x="20" y="104" fill="#929ca7" font-size="12">VS Code · Jupyter · containerized services</text>
+    </g>
+
+    <g transform="translate(614 345)">
+      <rect width="548" height="120" rx="9" fill="#10161d" stroke="#626d79"/>
+      <text x="20" y="27" fill="#aab2bb" font-size="12" letter-spacing="1.2">PROGRAMMING LANGUAGES</text>
+      <text x="20" y="59" fill="#e1e5e8" font-size="14">Python · C++ · SQL · JavaScript</text>
+      <text x="20" y="86" fill="#c2c8cd" font-size="14">Java · HTML · CSS</text>
+      <text x="20" y="108" fill="#929ca7" font-size="12">AI systems · backend services · data workflows</text>
+    </g>
+  </g>
+</svg>
