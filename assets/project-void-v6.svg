@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="126" viewBox="0 0 1200 126" role="img" aria-label="Open VOID AI project details">
+  <rect x="1" y="1" width="1198" height="124" rx="12" fill="#0e151b" stroke="#4f86a6" stroke-opacity=".75"/>
+  <rect x="1" y="1" width="7" height="124" rx="3" fill="#4f86a6"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <g transform="translate(37 28)" fill="none" stroke="#73a9c8"><circle cx="25" cy="28" r="22"/><circle cx="25" cy="28" r="7" fill="#73a9c8"/><ellipse cx="25" cy="28" rx="31" ry="12" transform="rotate(-25 25 28)"/></g>
+    <text x="112" y="31" fill="#73a9c8" font-size="11" letter-spacing="1.4">03 / MULTI-AGENT · FINANCE</text>
+    <text x="112" y="61" fill="#edf0f2" font-size="20" font-weight="700">VOID AI — Analyst Coverage Gap Intelligence</text>
+    <text x="112" y="88" fill="#8f99a4" font-size="13">SEC-grounded research and agent debate for overlooked U.S. equities</text>
+    <rect x="768" y="26" width="126" height="25" rx="12" fill="#16212a" stroke="#385f75"/><text x="831" y="43" text-anchor="middle" fill="#94bbd1" font-size="10">1,700+ EQUITIES</text>
+    <rect x="906" y="26" width="126" height="25" rx="12" fill="#16212a" stroke="#385f75"/><text x="969" y="43" text-anchor="middle" fill="#94bbd1" font-size="10">5-AGENT DEBATE</text>
+    <rect x="1003" y="72" width="158" height="31" rx="6" fill="#1c3040" stroke="#4f86a6"/><text x="1082" y="92" text-anchor="middle" fill="#acd0e3" font-size="11" letter-spacing="1">OPEN BRIEF  +</text>
+  </g>
+</svg>

@@ -3,118 +3,97 @@
 </p>
 
 <p align="center">
-  <a href="#about-me"><kbd>About Me</kbd></a>&nbsp;&nbsp;
-  <a href="#experience"><kbd>Experience</kbd></a>&nbsp;&nbsp;
-  <a href="#featured-projects"><kbd>Featured Projects</kbd></a>&nbsp;&nbsp;
-  <a href="#education"><kbd>Education</kbd></a>&nbsp;&nbsp;
-  <a href="#technical-skills"><kbd>Technical Skills</kbd></a>
+  <a href="#about-me"><img src="https://img.shields.io/badge/ABOUT_ME-2a9d8f?style=flat-square&labelColor=0d1117" alt="About Me" /></a>
+  <a href="#experience"><img src="https://img.shields.io/badge/EXPERIENCE-7c6fa8?style=flat-square&labelColor=0d1117" alt="Experience" /></a>
+  <a href="#featured-projects"><img src="https://img.shields.io/badge/PROJECTS-4f86a6?style=flat-square&labelColor=0d1117" alt="Featured Projects" /></a>
+  <a href="#education"><img src="https://img.shields.io/badge/EDUCATION-b98545?style=flat-square&labelColor=0d1117" alt="Education" /></a>
+  <a href="#technical-skills"><img src="https://img.shields.io/badge/SKILLS-4f8f6a?style=flat-square&labelColor=0d1117" alt="Technical Skills" /></a>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/vijwal-mahendrakar-1b6a8215a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-20262d?style=flat-square&logo=linkedin&logoColor=8baaa7" alt="Connect on LinkedIn" /></a>
-  <a href="mailto:vijwalmahendrakar@gmail.com"><img src="https://img.shields.io/badge/Email-Personal-20262d?style=flat-square&logo=gmail&logoColor=8baaa7" alt="Personal email" /></a>
-  <a href="mailto:mahendrakar.v@northeastern.edu"><img src="https://img.shields.io/badge/Email-Northeastern-20262d?style=flat-square&logo=microsoftoutlook&logoColor=918ca3" alt="Northeastern email" /></a>
+  <a href="https://www.linkedin.com/in/vijwal-mahendrakar-1b6a8215a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+  <a href="mailto:vijwalmahendrakar@gmail.com"><img src="https://img.shields.io/badge/Gmail-Contact-B23A48?style=flat-square&logo=gmail&logoColor=white" alt="Personal email" /></a>
+  <a href="mailto:mahendrakar.v@northeastern.edu"><img src="https://img.shields.io/badge/Northeastern-Academic_Email-7c6fa8?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="Northeastern email" /></a>
 </p>
 
 <a id="about-me"></a>
 
-## 01 — About Me
+## About Me
 
-<table>
-<tr>
-<td width="66%" valign="top">
+I build the engineering layers that turn capable models into **reliable AI products**. My focus is Generative AI, agentic workflows, retrieval, and LLM evaluation—supported by hands-on work in healthcare, finance, recommendation systems, computer vision, and optimized inference.
 
-### Professional Profile
+<p>
+  <img src="https://img.shields.io/badge/FOCUS-Generative_AI-19302c?style=flat-square&labelColor=2a9d8f" alt="Generative AI" />
+  <img src="https://img.shields.io/badge/BUILD-Agentic_Systems-29233d?style=flat-square&labelColor=7c6fa8" alt="Agentic Systems" />
+  <img src="https://img.shields.io/badge/SPECIALIZE-RAG_%26_Evaluation-1c3040?style=flat-square&labelColor=4f86a6" alt="RAG and Evaluation" />
+  <img src="https://img.shields.io/badge/BASE-Boston,_MA-382713?style=flat-square&labelColor=b98545" alt="Boston Massachusetts" />
+</p>
 
-I am an **AI Engineer and M.S. Artificial Intelligence student at Northeastern University** focused on Generative AI, agentic systems, retrieval, and LLM evaluation. I build beyond proof-of-concept demos—designing the ingestion, retrieval, orchestration, verification, caching, and deployment layers required to make AI systems dependable in real use.
+<p align="center">
+  <img src="./assets/capability-map-v6.svg" width="100%" alt="Vijwal's approach: ground, control, and ship AI systems" />
+</p>
 
-My experience spans healthcare RAG, financial intelligence agents, recommendation systems, computer vision, OCR, and optimized model inference. Across these domains, my goal remains the same: create AI products that are **grounded, measurable, observable, and production-ready**.
-
-</td>
-<td width="34%" valign="top">
-
-### Career Focus
-
-**Primary area**  
-Generative AI and agents
-
-**Specialization**  
-RAG, retrieval, LLM evaluation and optimization
-
-**Seeking**  
-Spring 2027 co-op from January 2027, AI/ML internships, and full-time AI roles
-
-**Location**  
-Boston, Massachusetts
-
-</td>
-</tr>
-</table>
-
-> **Engineering philosophy:** A useful AI system does more than generate an answer—it retrieves the right evidence, reasons within constraints, verifies its output, and exposes enough signal to improve safely.
+> **Open to:** Spring 2027 co-ops beginning January 2027, AI/ML internships, and full-time AI engineering roles.
 
 <a id="experience"></a>
 
-## 02 — Experience
+## Experience
 
-### AI Engineer Intern — Kideon
+<sub>Select a role to view the complete engineering work.</sub>
 
-`U.S.-based company` · `Remote from India` · `December 2024 – August 2025`
+<details>
+<summary><img src="./assets/experience-kideon-v6.svg" width="100%" alt="Kideon AI Engineer Internship — view details" /></summary>
+<br>
 
-- Designed and built a **production-grade Retrieval-Augmented Generation pipeline** for Kideon's gym and healthcare platform during its pre-launch phase, supporting health records, smartwatch data, and laboratory or blood-test reports.
-- Implemented an **LLM-based triage layer** that classified incoming records for clinical relevance and data quality, filtering noise and flagging incomplete or malformed uploads before ingestion.
-- Built a **persistent patient-memory system** using vector retrieval and structured metadata, allowing downstream recommendations to use a longitudinal record history instead of treating every upload independently.
-- Developed a personalized plan-generation module that combined retrieved patient context with LLM reasoning to produce workout and nutrition plans, with recommendations traceable to the dates, metrics, and test values that supported them.
-- Designed a **verification and safety layer** where an LLM-as-judge checked each plan against the retrieved patient history, scored consistency, and routed low-confidence or contradictory results to human review.
-- Built the system as containerized **FastAPI microservices** with Docker and Redis-backed retrieval caching; the broader team later deployed the platform on AWS for concurrent post-launch use.
+- Designed and built a **production-grade RAG pipeline** for Kideon's gym and healthcare platform during its pre-launch phase, supporting health records, smartwatch data, and laboratory or blood-test reports.
+- Implemented an **LLM-based triage layer** that classified incoming records for clinical relevance and quality, filtering noise and flagging incomplete or malformed uploads before ingestion.
+- Built a **persistent patient-memory system** using vector retrieval and structured metadata, giving downstream recommendations access to longitudinal history instead of a single upload.
+- Developed personalized workout and nutrition plan generation grounded in retrieved patient context, with recommendations traceable to the dates, metrics, and test values supporting them.
+- Designed a verification layer where an **LLM-as-judge** rechecked plans against the patient history and routed low-confidence, unsafe, or contradictory results to human review.
+- Built containerized FastAPI microservices with Docker and Redis-backed retrieval caching; the wider team later deployed the platform on AWS.
 
 `Generative AI` `RAG` `LLM Evaluation` `FastAPI` `Redis` `Docker` `AWS`
 
----
+</details>
 
-### Video Analytics Intern — Jio Platforms
+<details>
+<summary><img src="./assets/experience-jio-v6.svg" width="100%" alt="Jio Platforms Video Analytics Internship — view details" /></summary>
+<br>
 
-`Hyderabad, India` · `Hybrid` · `November 2023 – May 2024`
-
-- Developed a real-time **vehicle and license-plate recognition system** using YOLOv7 and PaddleOCR, achieving **more than 92% detection and recognition accuracy** across varied lighting and camera conditions.
-- Integrated the optimized models with **ONNX Runtime**, reducing inference latency by **35%** and enabling processing across live CCTV streams and prototype smart-camera systems.
-- Built a Python-based image scraper and annotation workflow that produced **20,000+ curated training samples**, strengthening performance on edge cases including motion blur, partial occlusion, and difficult viewing angles.
-- Collaborated with a small team to train and fine-tune **Stable Diffusion models for synthetic image generation and training-data augmentation** using human-image datasets.
-- Supported an internal prototype intended to evolve into a future customer product: it began with baby-smile recognition and later expanded to cry, posture, and movement-related monitoring.
-- Contributed to the integration and internal evaluation pipeline while deployment of the complete prototype was handled collaboratively by the wider team.
+- Developed a real-time **vehicle and license-plate recognition system** with YOLOv7 and PaddleOCR, achieving **more than 92% accuracy** across varied lighting and camera conditions.
+- Integrated optimized models with **ONNX Runtime**, reducing inference latency by **35%** for live CCTV streams and prototype smart-camera systems.
+- Built a Python image-scraping and annotation workflow that produced **20,000+ curated samples**, improving robustness to motion blur, occlusion, and difficult viewing angles.
+- Collaborated with a small team to train and fine-tune **Stable Diffusion models for synthetic training-image generation and augmentation**.
+- Supported an internal prototype intended to evolve into a future customer product, beginning with baby-smile recognition and later expanding to cry, posture, and movement monitoring.
+- Contributed to integration and internal evaluation while deployment of the complete prototype was handled collaboratively by the wider team.
 
 `Computer Vision` `YOLOv7` `PaddleOCR` `OpenCV` `ONNX Runtime` `Stable Diffusion`
 
+</details>
+
 <a id="featured-projects"></a>
 
-## 03 — Featured Projects
+## Featured Projects
 
-Each project stays compact while browsing. Select one to open the complete engineering brief.
-
-<table>
-<tr>
-<td width="100%">
+<sub>Each card is interactive. Select one to open its complete project brief.</sub>
 
 <details>
-<summary><b>Agentic RAG for Pharmaceutical Safety</b> — Production-oriented retrieval over approximately 15,000 versioned FDA drug labels</summary>
+<summary><img src="./assets/project-pharma-v6.svg" width="100%" alt="Open Pharmaceutical Safety RAG project" /></summary>
 <br>
 
-#### Overview
+### Agentic RAG for Pharmaceutical Safety
 
-Independently designed and implemented an end-to-end agentic RAG system for pharmaceutical safety documentation. The corpus uses the current PDF version of each FDA drug label alongside historical DailyMed Structured Product Labeling XML, preserving both real document layouts and authentic version changes.
+Independently designed and implemented an end-to-end agentic RAG system over approximately **15,000 FDA drug labels**. It uses current-label PDFs alongside historical DailyMed Structured Product Labeling XML, preserving both authentic document structure and version history.
 
-#### Engineering details
+**Architecture and engineering**
 
-- Used **Docling** for layout-aware parsing of current-label PDFs so dosing tables, adverse-reaction tables, and interaction sections retained meaningful structure.
-- Added **pdfplumber as a targeted fallback** for tables that could not be resolved cleanly by the primary parser.
-- Parsed historical SPL XML with **lxml and XPath against LOINC section codes**, turning section extraction into a deterministic lookup instead of fragile pattern matching.
-- Implemented hybrid retrieval with **Qdrant dense search and BM25**, merged candidates through Reciprocal Rank Fusion, and applied cross-encoder reranking before generation.
-- Used **LangGraph** to control model routing, retrieval decisions, verification, guardrails, and bounded corrective paths.
-- Added PostgreSQL metadata, Redis caching, evaluation-gated releases, observability, FastAPI services, and Dockerized deployment components.
+- Parsed current PDFs with **Docling** for layout awareness and used pdfplumber as a targeted fallback for unresolved dosing, adverse-reaction, and interaction tables.
+- Extracted historical XML sections deterministically with **lxml and XPath against SPL LOINC codes**.
+- Combined Qdrant dense retrieval with BM25, merged candidates using Reciprocal Rank Fusion, and applied cross-encoder reranking before generation.
+- Used LangGraph for model routing, retrieval decisions, controlled correction paths, guardrails, and verification.
+- Added PostgreSQL metadata, Redis caching, observability, evaluation-gated releases, FastAPI services, and Dockerized components.
 
-#### Why it matters
-
-The project models a recognizable enterprise use case: grounded question answering and historical change analysis over regulated pharmaceutical safety documentation.
+**Why it matters:** This models a recognizable enterprise use case—grounded retrieval and historical safety analysis over regulated pharmaceutical documentation.
 
 `Python` `Docling` `lxml` `Qdrant` `BM25` `LangGraph` `PostgreSQL` `Redis` `FastAPI` `Docker`
 
@@ -122,28 +101,24 @@ The project models a recognizable enterprise use case: grounded question answeri
 
 </details>
 
-<hr>
-
 <details>
-<summary><b>Agentic Game Recommendation System</b> — Personalized discovery using hybrid retrieval, learned ranking, and Steam context</summary>
+<summary><img src="./assets/project-game-v6.svg" width="100%" alt="Open Agentic Game Recommendation System project" /></summary>
 <br>
 
-#### Overview
+### Agentic Game Recommendation System
 
-Independently built a recommendation platform that interprets nuanced player intent and produces personalized game suggestions instead of relying only on genre or popularity filters.
+Independently built a recommendation platform that interprets nuanced player intent and generates personalized suggestions instead of relying only on genre and popularity filters.
 
-#### Engineering details
+**Architecture and engineering**
 
-- Combined **ChromaDB dense retrieval, BM25, Reciprocal Rank Fusion, and selective HyDE** for queries where hypothetical-document expansion improved recall.
-- Used LLM-assisted tag enrichment and self-distillation to create relevance pairs, including difficult hard negatives for training.
-- Fine-tuned a **bi-encoder retrieval model and QLoRA reranker** to improve ranking quality beyond the initial general-purpose embeddings.
-- Orchestrated query parsing, retrieval, reranking, personalization, and explanation generation using **LangGraph**.
-- Integrated Steam-library context so recommendations could account for games a user already owned or played.
+- Combined ChromaDB dense retrieval, BM25, Reciprocal Rank Fusion, and selective HyDE to improve recall for complex queries.
+- Used LLM-assisted tag enrichment and self-distillation to create training pairs with challenging hard negatives.
+- Fine-tuned a **bi-encoder retrieval model and QLoRA reranker** to improve ranking beyond general-purpose embeddings.
+- Used LangGraph to coordinate intent parsing, retrieval, reranking, personalization, and explanation generation.
+- Integrated Steam-library context to account for games a player already owned or played.
 - Added two-level Redis caching, FastAPI endpoints, Dockerized local deployment, Ollama support, and ONNX-optimized inference.
 
-#### Why it matters
-
-The system demonstrates the full recommendation lifecycle: data enrichment, retrieval, learned ranking, agent control, personalization, optimization, and serving.
+**Why it matters:** The system covers the full recommendation lifecycle—enrichment, retrieval, learned ranking, agent control, personalization, optimization, and serving.
 
 `Python` `LangGraph` `ChromaDB` `BM25` `HyDE` `QLoRA` `Redis` `FastAPI` `Ollama` `ONNX`
 
@@ -151,88 +126,68 @@ The system demonstrates the full recommendation lifecycle: data enrichment, retr
 
 </details>
 
-<hr>
-
 <details>
-<summary><b>VOID AI — Analyst Coverage Gap Intelligence</b> — Multi-agent research across more than 1,700 U.S. equities</summary>
+<summary><img src="./assets/project-void-v6.svg" width="100%" alt="Open VOID AI project" /></summary>
 <br>
 
-#### [View repository ↗](https://github.com/aatmaj28/Void-AI)
+### [VOID AI — Analyst Coverage Gap Intelligence ↗](https://github.com/aatmaj28/Void-AI)
 
-#### Overview
+Co-developed an AI investment-intelligence platform that identifies companies with high market activity but limited analyst coverage. It combines SEC-filings retrieval, quantitative scoring, historical validation, and a five-agent CrewAI debate workflow.
 
-Co-developed an AI investment-intelligence platform that identifies companies with high market activity but limited analyst coverage. The application combines SEC-filings retrieval, quantitative scoring, historical validation, and a five-agent CrewAI debate workflow.
+**My contributions**
 
-#### My contributions
-
-- Designed and implemented the **historical backtesting engine** used to validate opportunity signals against subsequent market behavior.
-- Built the stock-comparison workflow and major portfolio-tracking interfaces used to investigate and retain opportunities.
-- Implemented authentication integration, historical-score APIs, database migrations, and fixes for incomplete or inconsistent real-market data.
+- Designed and implemented the historical backtesting engine used to validate opportunity signals against later market behavior.
+- Built the stock-comparison workflow and major portfolio-tracking interfaces.
+- Implemented authentication integration, historical-score APIs, database migrations, and corrections for incomplete or inconsistent market data.
 - Contributed across the Next.js frontend, FastAPI services, Supabase database, and pgvector-backed retrieval layer.
 
-#### Platform architecture
-
-- Scans **1,700+ U.S. equities** using market, company, analyst-coverage, and SEC filing data.
-- Uses a five-agent CrewAI debate process to challenge and consolidate research signals.
-- Includes SEC-filings RAG, daily opportunity scoring, portfolio tracking, stock comparison, and signal validation.
+**Platform:** Scans **1,700+ U.S. equities** and combines SEC-filings RAG, a five-agent debate process, daily opportunity scoring, portfolio tracking, stock comparison, and signal validation.
 
 `Next.js` `TypeScript` `FastAPI` `CrewAI` `Haystack` `Supabase` `pgvector` `XGBoost`
 
 </details>
 
-<hr>
-
 <details>
-<summary><b>Equity Performance Screener</b> — Time-aware machine learning for next-quarter S&amp;P 500 outperformance</summary>
+<summary><img src="./assets/project-equity-v6.svg" width="100%" alt="Open Equity Performance Screener project" /></summary>
 <br>
 
-#### [View repository ↗](https://github.com/Vijwalmahen/equity-screener)
+### [Equity Performance Screener ↗](https://github.com/Vijwalmahen/equity-screener)
 
-#### Overview
+Independently built an end-to-end ML system that ranks S&amp;P 500 companies by the probability of outperforming during the following quarter using time-ordered fundamental and market data.
 
-Independently built an end-to-end ML system that ranks S&amp;P 500 companies by the probability of outperforming in the following quarter using time-ordered fundamental and market data.
-
-#### Engineering details
+**Architecture and results**
 
 - Benchmarked six machine-learning classifiers against four simple financial baselines.
-- Preserved chronology throughout training and evaluation to prevent future information from leaking into earlier predictions.
-- Achieved a **0.577 held-out ROC-AUC** with XGBoost and a **0.566 average expanding-window AUC across 16 quarters**.
+- Preserved chronology through training and evaluation to prevent future information leaking into earlier predictions.
+- XGBoost achieved a **0.577 held-out ROC-AUC** and a **0.566 average expanding-window AUC across 16 quarters**.
 - Added SHAP explanations, automated leakage tests, conformal prediction, transaction-cost analysis, and uncertainty-aware outputs.
-- Served predictions through FastAPI and built a React interface for ranking, filtering, and inspecting individual companies.
+- Served predictions through FastAPI and built a React interface for ranking, filtering, and inspecting companies.
 
 `Python` `XGBoost` `scikit-learn` `SHAP` `FastAPI` `React`
 
 </details>
 
-<hr>
-
 <details>
-<summary><b>ResilienceAI</b> — Eight-agent exploration of cascading global supply-chain risk</summary>
+<summary><img src="./assets/project-resilience-v6.svg" width="100%" alt="Open ResilienceAI project" /></summary>
 <br>
 
-#### [View repository ↗](https://github.com/Chandi713/Hackathon---End-Of-The-World)
+### [ResilienceAI ↗](https://github.com/Chandi713/Hackathon---End-Of-The-World)
 
-#### Overview
+A hackathon-built platform coordinating eight specialist agents to explore how disruptions cascade across countries and risk domains using **25 years of data covering 266 countries**.
 
-A hackathon-built platform that coordinates eight specialist agents to explore how disruptions can cascade across countries and risk domains using **25 years of data covering 266 countries**.
-
-#### My contributions
+**My contributions**
 
 - Built the country-selection experience used to configure and explore geographic risk scenarios.
-- Integrated frontend components with the backend APIs, resolving data-flow and full-stack interaction issues.
-- Contributed to the interactive exploration workflow while collaborating within the broader hackathon team.
+- Integrated frontend components with backend APIs and resolved full-stack data-flow issues.
+- Contributed to the interactive exploration workflow as part of the broader hackathon team.
 
 `LangGraph` `Python` `FastAPI` `Next.js` `TypeScript` `Recharts`
 
 </details>
 
-</td>
-</tr>
-</table>
-
 <a id="education"></a>
 
-## 04 — Education
+## Education
 
 <table>
 <tr>
@@ -240,24 +195,22 @@ A hackathon-built platform that coordinates eight specialist agents to explore h
 
 ### Northeastern University
 
-**Master of Science in Artificial Intelligence**  
-Boston, Massachusetts  
-September 2025 – Expected 2027
+**M.S. Artificial Intelligence**  
+Boston, Massachusetts · Sep 2025 – Expected 2027
 
-**GPA: 3.84/4.00**
+<img src="https://img.shields.io/badge/GPA-3.84_%2F_4.00-b98545?style=flat-square&labelColor=20170e" alt="GPA 3.84 out of 4" />
 
 </td>
 <td width="48%" valign="top">
 
 ### Vellore Institute of Technology
 
-**B.Tech in Computer Science and Engineering**  
-Specialization in Internet of Things  
-2021 – 2025
+**B.Tech CSE · Internet of Things**  
+Vellore, India · 2021 – 2025
 
-**CGPA: 8.78/10**  
-Major project: LLM quantization and model-size reduction  
-Community: VIT Gamers Club
+<img src="https://img.shields.io/badge/CGPA-8.78_%2F_10-7c6fa8?style=flat-square&labelColor=171420" alt="CGPA 8.78 out of 10" />
+
+<sub>Major project: LLM quantization and model-size reduction · VIT Gamers Club</sub>
 
 </td>
 </tr>
@@ -265,91 +218,40 @@ Community: VIT Gamers Club
 
 <a id="technical-skills"></a>
 
-## 05 — Technical Skills
-
-### Core Engineering Stack
+## Technical Skills
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=8baaa7" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-161b22?style=for-the-badge&logo=pytorch&logoColor=918ca3" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/LangGraph-161b22?style=for-the-badge&logo=langchain&logoColor=8baaa7" alt="LangGraph" />
-  <img src="https://img.shields.io/badge/Hugging_Face-161b22?style=for-the-badge&logo=huggingface&logoColor=918ca3" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/FastAPI-161b22?style=for-the-badge&logo=fastapi&logoColor=8baaa7" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/PostgreSQL-161b22?style=for-the-badge&logo=postgresql&logoColor=918ca3" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Docker-161b22?style=for-the-badge&logo=docker&logoColor=8baaa7" alt="Docker" />
-  <img src="https://img.shields.io/badge/AWS-161b22?style=for-the-badge&logo=amazonwebservices&logoColor=918ca3" alt="AWS" />
+  <img src="./assets/skills-board-v6.svg" width="100%" alt="AI engineering skills capability board" />
 </p>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<details>
+<summary><img src="https://img.shields.io/badge/EXPAND-FULL_SKILL_INVENTORY-4f8f6a?style=for-the-badge&labelColor=0d1117" alt="Expand full skill inventory" /></summary>
+<br>
 
-### Generative AI & Agents
+| Area | Technologies |
+| --- | --- |
+| **Languages** | Python, C++, SQL, JavaScript, Java, HTML/CSS |
+| **Generative AI & Agents** | LLMs, agentic systems, RAG, LangChain, LangGraph, Hugging Face, routing, memory, tools, guardrails, LLM evaluation |
+| **Machine Learning** | PyTorch, TensorFlow, Keras, scikit-learn, XGBoost, NLP, reinforcement learning, ranking and recommendation |
+| **Computer Vision** | OpenCV, YOLOv7, PaddleOCR, Stable Diffusion, ONNX Runtime, video analytics and OCR |
+| **Data & Retrieval** | PostgreSQL, Supabase, pgvector, Qdrant, ChromaDB, Redis, Pandas, NumPy, BM25, dense retrieval, RRF, reranking |
+| **Backend & Cloud** | FastAPI, REST API design, Docker, AWS, microservices, observability, Git, Linux, VS Code, Jupyter |
 
-- Large Language Models and Generative AI
-- Agentic systems and multi-agent workflows
-- Retrieval-Augmented Generation
-- LangChain and LangGraph
-- Hugging Face ecosystem
-- Model routing, memory, tool use, and guardrails
-- LLM-as-judge evaluation and human review
-- Retrieval, grounding, latency, and cost evaluation
+</details>
 
-### Languages
+## Currently Exploring
 
-- Python, C++, SQL
-- JavaScript, Java
-- HTML and CSS
-
-### Data & Retrieval
-
-- PostgreSQL, Supabase, pgvector
-- Qdrant and ChromaDB
-- Redis caching
-- BM25, dense retrieval, hybrid search, RRF
-
-</td>
-<td width="50%" valign="top">
-
-### Machine Learning & NLP
-
-- PyTorch, TensorFlow, and Keras
-- scikit-learn and XGBoost
-- Pandas and NumPy
-- NLP, ranking, classification, and recommendation
-- Reinforcement learning
-- Quantization, pruning, and model optimization
-
-### Computer Vision
-
-- OpenCV, YOLOv7, and PaddleOCR
-- Stable Diffusion fine-tuning and data generation
-- ONNX Runtime optimization
-- Real-time video analytics and OCR
-
-### Backend, Cloud & Development
-
-- FastAPI and REST API design
-- Docker and AWS
-- Git, Linux, VS Code, and Jupyter
-- Containerized microservices
-- Caching, observability, and deployment pipelines
-
-</td>
-</tr>
-</table>
-
-## 06 — Currently Exploring
-
-- Reliable multi-agent systems with routing, memory, guardrails, and human-in-the-loop workflows
-- RAG evaluation across retrieval quality, grounding, latency, and cost
-- Efficient LLM deployment through quantization, pruning, and inference optimization
+<p align="center">
+  <img src="https://img.shields.io/badge/MULTI--AGENT-Routing_·_Memory_·_Guardrails-19302c?style=for-the-badge&labelColor=2a9d8f" alt="Multi-agent reliability" />
+  <img src="https://img.shields.io/badge/RAG-Evaluation_·_Grounding_·_Cost-29233d?style=for-the-badge&labelColor=7c6fa8" alt="RAG evaluation" />
+  <img src="https://img.shields.io/badge/LLM-Quantization_·_Optimized_Inference-382713?style=for-the-badge&labelColor=b98545" alt="Efficient LLM deployment" />
+</p>
 
 ---
 
 <p align="center">
-  <a href="https://github.com/Vijwalmahen?tab=repositories"><img src="https://img.shields.io/badge/Browse-Repositories-20262d?style=flat-square&logo=github&logoColor=8baaa7" alt="Browse repositories" /></a>
-  <a href="https://www.linkedin.com/in/vijwal-mahendrakar-1b6a8215a/"><img src="https://img.shields.io/badge/Start-a_Conversation-20262d?style=flat-square&logo=linkedin&logoColor=918ca3" alt="Start a conversation" /></a>
+  <a href="https://github.com/Vijwalmahen?tab=repositories"><img src="https://img.shields.io/badge/BROWSE-REPOSITORIES-4f86a6?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Browse repositories" /></a>
+  <a href="https://www.linkedin.com/in/vijwal-mahendrakar-1b6a8215a/"><img src="https://img.shields.io/badge/START-A_CONVERSATION-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="Start a conversation" /></a>
 </p>
 
 <p align="center"><sub><code>Building AI systems that earn trust in production.</code></sub></p>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="Vijwal's AI engineering technical skills">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1015"/><stop offset="1" stop-color="#121720"/></linearGradient></defs>
+  <rect x="1" y="1" width="1198" height="348" rx="14" fill="url(#bg)" stroke="#2a323d"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="38" y="42" fill="#7f8995" font-size="12" letter-spacing="2">TECHNICAL CAPABILITY BOARD / ACTIVE STACK</text>
+    <g transform="translate(38 65)">
+      <rect width="548" height="105" rx="9" fill="#10161d" stroke="#2a9d8f"/>
+      <text x="20" y="28" fill="#58b7ab" font-size="12" letter-spacing="1.2">GENERATIVE AI + AGENTS</text>
+      <text x="20" y="59" fill="#e1e5e8" font-size="14">LangGraph · LangChain · Hugging Face · RAG</text>
+      <text x="20" y="84" fill="#929ca7" font-size="12">routing · tool use · memory · guardrails · LLM evaluation</text>
+    </g>
+    <g transform="translate(614 65)">
+      <rect width="548" height="105" rx="9" fill="#10161d" stroke="#7c6fa8"/>
+      <text x="20" y="28" fill="#a095c3" font-size="12" letter-spacing="1.2">MACHINE LEARNING + VISION</text>
+      <text x="20" y="59" fill="#e1e5e8" font-size="14">PyTorch · TensorFlow · scikit-learn · XGBoost</text>
+      <text x="20" y="84" fill="#929ca7" font-size="12">OpenCV · YOLO · PaddleOCR · NLP · reinforcement learning</text>
+    </g>
+    <g transform="translate(38 190)">
+      <rect width="548" height="105" rx="9" fill="#10161d" stroke="#4f86a6"/>
+      <text x="20" y="28" fill="#73a9c8" font-size="12" letter-spacing="1.2">DATA + RETRIEVAL</text>
+      <text x="20" y="59" fill="#e1e5e8" font-size="14">PostgreSQL · pgvector · Qdrant · ChromaDB · Redis</text>
+      <text x="20" y="84" fill="#929ca7" font-size="12">dense search · BM25 · RRF · reranking · caching</text>
+    </g>
+    <g transform="translate(614 190)">
+      <rect width="548" height="105" rx="9" fill="#10161d" stroke="#b98545"/>
+      <text x="20" y="28" fill="#d2a568" font-size="12" letter-spacing="1.2">BACKEND + PRODUCTION</text>
+      <text x="20" y="59" fill="#e1e5e8" font-size="14">FastAPI · REST · Docker · AWS · ONNX Runtime</text>
+      <text x="20" y="84" fill="#929ca7" font-size="12">microservices · optimization · observability · Linux · Git</text>
+    </g>
+    <text x="38" y="326" fill="#697480" font-size="11">LANGUAGES / Python · C++ · SQL · JavaScript · Java · HTML/CSS</text>
+  </g>
+</svg>
