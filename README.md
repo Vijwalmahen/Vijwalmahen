@@ -3,143 +3,175 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/vijwal-mahendrakar-1b6a8215a/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Vijwal on LinkedIn" />
-  </a>
-  <a href="mailto:vijwalmahendrakar@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Contact-20232A?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email Vijwal" />
-  </a>
-  <a href="mailto:mahendrakar.v@northeastern.edu">
-    <img src="https://img.shields.io/badge/Northeastern-Academic_Email-7C3AED?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email Vijwal at Northeastern" />
-  </a>
+  <a href="#about"><img src="https://img.shields.io/badge/01-ABOUT-22D3EE?style=for-the-badge&labelColor=0D1117" alt="About" /></a>
+  <a href="#experience"><img src="https://img.shields.io/badge/02-EXPERIENCE-A78BFA?style=for-the-badge&labelColor=0D1117" alt="Experience" /></a>
+  <a href="#projects"><img src="https://img.shields.io/badge/03-PROJECTS-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Projects" /></a>
+  <a href="#education"><img src="https://img.shields.io/badge/04-EDUCATION-A78BFA?style=for-the-badge&labelColor=0D1117" alt="Education" /></a>
+  <a href="#stack"><img src="https://img.shields.io/badge/05-STACK-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Technical stack" /></a>
 </p>
 
 <p align="center">
-  <code>Boston, MA</code> &nbsp;&bull;&nbsp;
-  <code>M.S. Artificial Intelligence @ Northeastern</code> &nbsp;&bull;&nbsp;
-  <code>Open to Spring 2027 co-ops</code>
+  <a href="https://www.linkedin.com/in/vijwal-mahendrakar-1b6a8215a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+  <a href="mailto:vijwalmahendrakar@gmail.com"><img src="https://img.shields.io/badge/Gmail-Contact-20232A?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email Vijwal" /></a>
+  <a href="mailto:mahendrakar.v@northeastern.edu"><img src="https://img.shields.io/badge/Northeastern-Academic_Email-7C3AED?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Northeastern email" /></a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2600&pause=800&color=22D3EE&center=true&vCenter=true&width=900&height=35&lines=RAG+systems+that+retrieve%2C+reason%2C+and+verify;Agent+workflows+with+bounded+self-correction;LLM+evaluation+%7C+optimization+%7C+observability" alt="Animated summary of Vijwal's AI engineering focus" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2600&pause=750&color=22D3EE&center=true&vCenter=true&width=900&height=42&lines=Building+reliable%2C+production-ready+AI;RAG+systems+that+retrieve+%E2%86%92+reason+%E2%86%92+verify;Agentic+workflows+with+evaluation+and+guardrails" alt="Animated AI engineering focus" />
 </p>
 
-<p align="center">
-  <img src="./assets/section-01-about-me.svg" alt="01 — About Me" width="100%" />
-</p>
+<table align="center">
+  <tr>
+    <td><b>BASE</b><br><code>Boston, MA</code></td>
+    <td><b>FOCUS</b><br><code>GenAI · Agents · RAG</code></td>
+    <td><b>STATUS</b><br><code>Spring 2027 Co-op</code></td>
+    <td><b>MISSION</b><br><code>Reliable Production AI</code></td>
+  </tr>
+</table>
 
-I am an M.S. Artificial Intelligence student at Northeastern University focused on **Generative AI, agentic systems, RAG, and LLM evaluation**. I enjoy transforming powerful but unpredictable models into reliable, production-ready systems by designing robust retrieval pipelines, agent workflows, evaluation loops, and safety gates.
+<p align="center"><img src="./assets/ai-system-loop.svg" alt="Animated production AI pipeline" width="100%" /></p>
 
-My goal is to build AI products that are **accurate, observable, scalable, and genuinely useful** in real-world environments. I am exploring Spring 2027 co-ops beginning in January 2027, AI/ML internships, and full-time AI engineering roles.
+<a id="about"></a>
+<p align="center"><img src="./assets/section-01-about-me.svg" alt="01 — About Me" width="100%" /></p>
 
-<p align="center">
-  <img src="./assets/section-02-experience.svg" alt="02 — Experience" width="100%" />
-</p>
+I am an M.S. Artificial Intelligence student at **Northeastern University** focused on building reliable systems around powerful but unpredictable models. My work spans **Generative AI, agentic systems, RAG, LLM evaluation, optimization, and computer vision**—from retrieval and orchestration to verification, deployment, and observability.
 
-### `ROLE_01` AI Engineer Intern — Kideon *(U.S.-based)*
+> **Currently seeking:** Spring 2027 co-ops beginning January 2027, AI/ML internships, and full-time AI engineering roles.
 
-`Remote` &nbsp; `Dec 2024 – Aug 2025`
+<a id="experience"></a>
+<p align="center"><img src="./assets/section-02-experience.svg" alt="02 — Experience" width="100%" /></p>
+
+<details open>
+<summary><b><code>ROLE_01</code> AI Engineer Intern — Kideon</b> · U.S.-based · Remote · Dec 2024–Aug 2025</summary>
 
 - Built a production-grade RAG pipeline for health records, smartwatch data, and laboratory results, supporting grounded workout and nutrition planning.
 - Developed LLM-based document triage and persistent patient memory using vector retrieval and structured metadata.
 - Added source-level traceability and an LLM-as-judge verification layer that routed unsafe, contradictory, or low-confidence recommendations to human review.
 - Built containerized FastAPI microservices with Redis-backed retrieval caching; the team subsequently deployed the platform on AWS.
 
-### `ROLE_02` Video Analytics Intern — Jio Platforms
+`RAG` `FastAPI` `Docker` `Redis` `AWS` `LLM Evaluation`
 
-`Hyderabad, India` &nbsp; `Hybrid` &nbsp; `Nov 2023 – May 2024`
+</details>
 
-- Developed a real-time vehicle and license-plate recognition system using YOLOv7 and PaddleOCR, achieving **92%+ accuracy** across varied lighting and camera conditions.
-- Reduced inference latency by **35%** using ONNX Runtime and contributed to deployment pipelines for live CCTV and prototype smart-camera systems.
-- Built Python-based image-scraping and annotation tools that added **20,000+ curated samples**, improving robustness to motion blur, occlusion, and other edge cases.
-- Fine-tuned Stable Diffusion models to generate synthetic training data for an internal baby-monitor prototype that evolved from smile detection to cry and movement detection for a planned customer product.
+<details>
+<summary><b><code>ROLE_02</code> Video Analytics Intern — Jio Platforms</b> · Hyderabad · Hybrid · Nov 2023–May 2024</summary>
 
-<p align="center">
-  <img src="./assets/section-03-featured-projects.svg" alt="03 — Featured Projects" width="100%" />
-</p>
+- Built a real-time vehicle and license-plate recognition system using YOLOv7 and PaddleOCR, achieving **92%+ accuracy** across varied conditions.
+- Reduced inference latency by **35%** with ONNX Runtime and contributed to deployment pipelines for live CCTV and smart-camera prototypes.
+- Created Python scraping and annotation tools that added **20,000+ curated samples** and improved robustness to blur and occlusion.
+- Fine-tuned Stable Diffusion models to generate synthetic training data for a future baby-monitor product spanning smile, cry, and movement detection.
 
-### `SYSTEM_01` Production-Grade Agentic RAG for Pharmaceutical Safety — *Independent*
+`Computer Vision` `YOLOv7` `PaddleOCR` `ONNX Runtime` `Stable Diffusion`
 
-Built an end-to-end RAG system over approximately **15,000 FDA drug labels**, using current-version PDFs and historical DailyMed SPL XML to preserve genuine document revisions. Implemented layout-aware parsing with Docling and pdfplumber, section extraction with lxml/XPath and LOINC codes, hybrid Qdrant + BM25 retrieval with RRF, cross-encoder reranking, LangGraph control flow, model routing, guardrails, caching, observability, and evaluation-gated releases.
+</details>
+
+<a id="projects"></a>
+<p align="center"><img src="./assets/section-03-featured-projects.svg" alt="03 — Featured Projects" width="100%" /></p>
+
+<p><i>Click a system to inspect its architecture, engineering decisions, and results.</i></p>
+
+<details open>
+<summary><b><code>SYSTEM_01</code> Agentic RAG for Pharmaceutical Safety</b> · Independent · ~15,000 FDA drug labels</summary>
+
+Built an end-to-end RAG platform over current FDA-label PDFs and historical DailyMed SPL XML, preserving real document revisions and structured safety information.
+
+- Layout-aware PDF parsing with Docling and pdfplumber; deterministic XML section extraction with lxml/XPath and LOINC codes.
+- Hybrid Qdrant + BM25 retrieval, reciprocal-rank fusion, cross-encoder reranking, LangGraph orchestration, guardrails, caching, observability, and evaluation-gated releases.
 
 `Python` `LangGraph` `Qdrant` `BM25` `PostgreSQL` `Redis` `FastAPI` `Docker`
 
-<!-- TODO: Add the pharmaceutical RAG repository link and final evaluation metrics. -->
+<!-- TODO: Add repository link and final evaluation metrics. -->
 
-### `SYSTEM_02` Agentic Game Recommendation System — *Independent*
+</details>
 
-Built a personalized recommendation platform combining ChromaDB dense search, BM25, RRF, selective HyDE, and LLM-assisted tag enrichment. Created self-distilled training pairs with hard negatives, fine-tuned a bi-encoder and QLoRA reranker, and orchestrated query parsing, retrieval, reranking, and explanation through LangGraph. Added Steam-library personalization, two-level Redis caching, ONNX-optimized inference, FastAPI services, and Dockerized local deployment.
+<details>
+<summary><b><code>SYSTEM_02</code> Agentic Game Recommendation System</b> · Independent · Hybrid retrieval + personalization</summary>
 
-`Python` `LangGraph` `ChromaDB` `BM25` `QLoRA` `Redis` `FastAPI` `Ollama` `ONNX`
+Built a personalized recommender combining dense search, BM25, RRF, selective HyDE, LLM-assisted tag enrichment, and Steam-library context.
 
-<!-- TODO: Add the game recommender repository link and final ranking/latency metrics. -->
+- Created self-distilled training pairs with hard negatives, then fine-tuned a bi-encoder and QLoRA reranker.
+- Orchestrated parsing, retrieval, reranking, and explanation through LangGraph with Redis caching, ONNX inference, FastAPI, Docker, and Ollama.
 
-### `SYSTEM_03` [VOID AI — Analyst Coverage Gap Intelligence](https://github.com/aatmaj28/Void-AI) — *Team of 2*
+`LangGraph` `ChromaDB` `BM25` `QLoRA` `Redis` `FastAPI` `Ollama` `ONNX`
 
-Co-developed an AI investment-intelligence platform that scans **1,700+ U.S. equities** for high market activity and limited analyst coverage. The platform combines SEC-filings RAG, a five-agent CrewAI debate workflow, daily opportunity scoring, and signal validation. Owned major product components including the backtesting engine, stock-comparison workflow, portfolio tracking, authentication integration, historical-score APIs, database migrations, and real-market-data fixes.
+<!-- TODO: Add repository link and final ranking/latency metrics. -->
+
+</details>
+
+<details>
+<summary><b><code>SYSTEM_03</code> <a href="https://github.com/aatmaj28/Void-AI">VOID AI — Analyst Coverage Gap Intelligence</a></b> · Team of 2 · 1,700+ equities</summary>
+
+Co-developed an AI investment-intelligence platform combining SEC-filings RAG, a five-agent CrewAI debate workflow, daily opportunity scoring, and signal validation.
+
+- Owned the backtesting engine, stock-comparison workflow, portfolio UI, authentication integration, historical-score APIs, database migrations, and real-market-data fixes.
 
 `Next.js` `TypeScript` `FastAPI` `CrewAI` `Haystack` `Supabase` `pgvector` `XGBoost`
 
-### `SYSTEM_04` [Equity Performance Screener](https://github.com/Vijwalmahen/equity-screener) — *Independent*
+</details>
 
-Built an end-to-end ML system that predicts next-quarter S&P 500 outperformance from time-ordered fundamental and price data. Benchmarked six classifiers against four financial baselines; XGBoost achieved a **0.577 held-out ROC-AUC**, while expanding-window validation averaged **0.566 AUC across 16 quarters**. Added SHAP explanations, leakage tests, conformal prediction, transaction-cost analysis, a FastAPI backend, and a React dashboard.
+<details>
+<summary><b><code>SYSTEM_04</code> <a href="https://github.com/Vijwalmahen/equity-screener">Equity Performance Screener</a></b> · Independent · Walk-forward ML</summary>
+
+Built an end-to-end system predicting next-quarter S&amp;P 500 outperformance from time-ordered fundamental and price data.
+
+- XGBoost achieved **0.577 held-out ROC-AUC** and **0.566 expanding-window AUC across 16 quarters**.
+- Added SHAP explanations, leakage tests, conformal prediction, transaction-cost analysis, FastAPI, and a React dashboard.
 
 `Python` `XGBoost` `scikit-learn` `SHAP` `FastAPI` `React`
 
-### `TEAM_BUILD` Additional Project
+</details>
 
-**[ResilienceAI](https://github.com/Chandi713/Hackathon---End-Of-The-World)** — Contributed country-selection and full-stack API integration to a hackathon-built, LangGraph-based supply-chain risk platform covering 266 countries and 25 years of multi-domain data. The system coordinates eight specialist agents and supports interactive risk exploration and cascade simulation.
+<details>
+<summary><b><code>TEAM_BUILD</code> <a href="https://github.com/Chandi713/Hackathon---End-Of-The-World">ResilienceAI</a></b> · Hackathon · 8-agent risk simulation</summary>
+
+Contributed country selection and full-stack API integration to a LangGraph supply-chain risk platform covering **266 countries** and **25 years** of multi-domain data.
 
 `LangGraph` `Python` `FastAPI` `Next.js` `TypeScript` `Recharts`
 
-<p align="center">
-  <img src="./assets/section-04-education.svg" alt="04 — Education" width="100%" />
-</p>
+</details>
 
-### `EDU_01` Northeastern University — Boston, MA
+<a id="education"></a>
+<p align="center"><img src="./assets/section-04-education.svg" alt="04 — Education" width="100%" /></p>
 
-**Master of Science in Artificial Intelligence** &nbsp;|&nbsp; `Sep 2025 – Expected 2027`<br>
-GPA: **3.84/4.00**
+| Institution | Program | Timeline | Result |
+| --- | --- | --- | --- |
+| **Northeastern University**, Boston | M.S. Artificial Intelligence | Sep 2025–Expected 2027 | **3.84/4.00** |
+| **Vellore Institute of Technology**, Vellore | B.Tech CSE, specialization in IoT | 2021–2025 | **8.78/10** |
 
-### `EDU_02` Vellore Institute of Technology — Vellore, India
+<details>
+<summary><b>Additional academic signal</b></summary>
 
-**B.Tech in Computer Science and Engineering, specializing in Internet of Things** &nbsp;|&nbsp; `2021 – 2025`<br>
-CGPA: **8.78/10** · Major project focused on LLM quantization and model-size reduction · VIT Gamers Club
+- Major project: LLM quantization and model-size reduction research.
+- Community: VIT Gamers Club.
 
-<p align="center">
-  <img src="./assets/section-05-technical-skills.svg" alt="05 — Technical Skills" width="100%" />
-</p>
+</details>
 
-| Area | Technologies |
+<a id="stack"></a>
+<p align="center"><img src="./assets/section-05-technical-skills.svg" alt="05 — Technical Skills" width="100%" /></p>
+
+| System layer | Technologies |
 | --- | --- |
-| **Languages** | Python, C++, SQL, JavaScript, Java, HTML/CSS |
-| **Generative AI & Agents** | LLMs, agentic systems, RAG, LangChain, LangGraph, Hugging Face, LLM evaluation and optimization |
-| **Machine Learning** | PyTorch, TensorFlow, Keras, scikit-learn, XGBoost, NLP, reinforcement learning |
-| **Computer Vision** | OpenCV, YOLO, PaddleOCR, ONNX Runtime |
-| **Data & Retrieval** | PostgreSQL, Supabase, pgvector, Qdrant, Redis, Pandas, NumPy |
-| **Backend & Cloud** | FastAPI, REST API design, Docker, AWS, Git, Linux |
+| **Languages** | Python · C++ · SQL · JavaScript · Java · HTML/CSS |
+| **Generative AI & Agents** | LLMs · RAG · LangChain · LangGraph · Hugging Face · evaluation · optimization |
+| **Machine Learning** | PyTorch · TensorFlow · Keras · scikit-learn · XGBoost · NLP · reinforcement learning |
+| **Computer Vision** | OpenCV · YOLO · PaddleOCR · ONNX Runtime |
+| **Data & Retrieval** | PostgreSQL · Supabase · pgvector · Qdrant · Redis · Pandas · NumPy |
+| **Backend & Cloud** | FastAPI · REST API design · Docker · AWS · Git · Linux |
+
+<p align="center"><img src="./assets/section-06-currently-exploring.svg" alt="06 — Currently Exploring" width="100%" /></p>
 
 <p align="center">
-  <img src="./assets/section-06-currently-exploring.svg" alt="06 — Currently Exploring" width="100%" />
+  <img src="https://img.shields.io/badge/MULTI--AGENT-Routing_%26_Memory-22D3EE?style=flat-square&labelColor=0D1117" alt="Multi-agent systems" />
+  <img src="https://img.shields.io/badge/RAG-Evaluation_%26_Grounding-A78BFA?style=flat-square&labelColor=0D1117" alt="RAG evaluation" />
+  <img src="https://img.shields.io/badge/LLM-Quantization_%26_Inference-22D3EE?style=flat-square&labelColor=0D1117" alt="Efficient LLM deployment" />
 </p>
 
-- Reliable multi-agent systems with routing, memory, guardrails, and human-in-the-loop workflows
-- RAG evaluation and optimization across retrieval quality, grounding, latency, and cost
-- Efficient LLM deployment through quantization, pruning, and inference optimization
-
-<p align="center">
-  <img src="./assets/section-07-github-activity.svg" alt="07 — GitHub Activity" width="100%" />
-</p>
+<p align="center"><img src="./assets/section-07-github-activity.svg" alt="07 — GitHub Activity" width="100%" /></p>
 
 <p align="center">
-  <img height="155" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Vijwalmahen&theme=github_dark" alt="Vijwal's GitHub statistics" />
-  <img height="155" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vijwalmahen&theme=github_dark" alt="Vijwal's most-used GitHub languages" />
+  <a href="https://github.com/Vijwalmahen?tab=repositories"><img src="https://img.shields.io/badge/OPEN-ALL_REPOSITORIES-22D3EE?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="View all repositories" /></a>
+  <a href="https://github.com/Vijwalmahen?tab=stars"><img src="https://img.shields.io/badge/OPEN-STARRED_PROJECTS-A78BFA?style=for-the-badge&logo=githubsponsors&logoColor=white&labelColor=0D1117" alt="View starred projects" /></a>
 </p>
 
-<p align="center">
-  <img width="510" src="https://streak-stats.demolab.com?user=Vijwalmahen&hide_border=false&border=1F2937&background=0D1117&ring=22D3EE&fire=A78BFA&currStreakNum=E2E8F0&sideNums=E2E8F0&currStreakLabel=22D3EE&sideLabels=CBD5E1&dates=64748B" alt="Vijwal's GitHub contribution streak" />
-</p>
-
-<p align="center">
-  <sub><code>SYS.STATUS: BUILDING RELIABLE, PRODUCTION-READY AI</code></sub>
-</p>
+<p align="center"><sub><code>SYS.STATUS // BUILDING RELIABLE, PRODUCTION-READY AI</code></sub></p>
+<p align="center"><sub>The standard GitHub contribution graph appears below this profile README.</sub></p>
